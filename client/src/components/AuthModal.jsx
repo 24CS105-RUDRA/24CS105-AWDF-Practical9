@@ -45,7 +45,7 @@ function AuthModal({ isOpen, onClose, onAuthSuccess }) {
 
   const handleFillDemo = () => {
     setEmail('24cs105@charusat.edu.in');
-    setPassword('DharmLakhani2026!');
+    setPassword('RudraVaghela2026!');
     setName('Rudra Vaghela (24CS105)');
   };
 
