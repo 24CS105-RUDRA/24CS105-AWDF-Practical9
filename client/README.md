@@ -1,9 +1,9 @@
 # Practical 3: API Integration and Data Rendering in React
 
 **Student Details:**
-- **Name:** Dharm Lakhani
-- **Student ID:** 24CS046
-- **Email:** 24cs046@charusat.edu.in
+- **Name:** Rudra Vaghela
+- **Student ID:** 24CS105
+- **Email:** 24cs105@charusat.edu.in
 - **Course:** ITUE301: Advance Web Development Framework
 - **Institute:** CSPIT, Charotar University of Science and Technology (CHARUSAT)
 
@@ -31,7 +31,7 @@ Projects.jsx
 ## 🚀 Implemented Features
 
 ### 1. Asynchronous REST API Integration (`useEffect`)
-- **API Endpoint:** `https://api.github.com/users/24CS046Dharm/repos?sort=updated`
+- **API Endpoint:** `https://api.github.com/users/24CS105-RUDRA/repos?sort=updated`
 - Initiates the `fetch` request immediately upon component mount via `useEffect` with an empty dependency array `[]` (plus trigger variables for retry and testing), preventing infinite re-fetching cycles.
 - Correctly parses responses and validates `res.ok` to catch HTTP errors (such as 404 Not Found or 403 Rate Limit Exceeded).
 
@@ -87,4 +87,4 @@ Projects.jsx
 ---
 
 ## 📄 Lab Documentation Deliverable
-- Updated report generated as **`pract-3-awdf-24cs046.docx`** with the updated Aim, source code, repository links, detailed output explanations, and 4 high-resolution screenshots.
+- Updated report generated as **`pract-3-awdf-24cs105.docx`** with the updated Aim, source code, repository links, detailed output explanations, and 4 high-resolution screenshots.

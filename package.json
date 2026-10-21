@@ -1,5 +1,5 @@
 {
-  "name": "24cs046-awdf-practical9",
+  "name": "24CS105-AWDF-Practical9",
   "version": "1.0.0",
   "description": "Practical 9: In-Memory Caching and Query Optimization (node-cache + Express + MongoDB Atlas)",
   "private": true,
@@ -18,6 +18,6 @@
     "mongodb-atlas",
     "fullstack"
   ],
-  "author": "Dharm Lakhani (24CS046)",
+  "author": "Rudra Vaghela (24CS105)",
   "license": "ISC"
 }

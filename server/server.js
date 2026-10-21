@@ -3,7 +3,7 @@
  * Faculty of Technology and Engineering (FTE / CSPIT)
  * Course: Advanced Web Development Frameworks (ITUE301)
  * Practical 9: In-Memory Caching and Query Optimization
- * Student: Dharm Lakhani (24CS046)
+ * Student: Rudra Vaghela (24CS105)
  */
 
 require('dotenv').config();
@@ -37,7 +37,7 @@ const {
 const app = express();
 const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/task_manager_db';
-const JWT_SECRET = process.env.JWT_SECRET || 'jay_ladva_24cs046_jwt_default_secret_2026';
+const JWT_SECRET = process.env.JWT_SECRET || 'jay_ladva_24cs105_jwt_default_secret_2026';
 
 // ==========================================
 // 1. CORS Middleware
@@ -100,7 +100,7 @@ app.get('/', (req, res) => {
   const dbStatus = mongoose.connection.readyState === 1 ? 'connected' : 'disconnected';
   res.status(200).json({
     message: 'Welcome to Task Manager API with In-Memory Caching (Practical 9)',
-    student: 'Dharm Lakhani (24CS046)',
+    student: 'Rudra Vaghela (24CS105)',
     course: 'ITUE301',
     database: {
       type: 'MongoDB Atlas',

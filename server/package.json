@@ -1,5 +1,5 @@
 {
-  "name": "task-manager-api-24cs046",
+  "name": "task-manager-api-24cs105",
   "version": "1.0.0",
   "description": "RESTful API with Node.js and Express for Practical 4 (ITUE301)",
   "main": "server.js",
@@ -15,7 +15,7 @@
     "middleware",
     "task-manager"
   ],
-  "author": "Dharm Lakhani (24CS046)",
+  "author": "Rudra Vaghela (24CS105)",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^3.0.3",

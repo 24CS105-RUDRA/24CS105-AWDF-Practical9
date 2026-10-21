@@ -44,9 +44,9 @@ function AuthModal({ isOpen, onClose, onAuthSuccess }) {
   };
 
   const handleFillDemo = () => {
-    setEmail('dharm.lakhani.24cs046@charusat.edu.in');
+    setEmail('24cs105@charusat.edu.in');
     setPassword('DharmLakhani2026!');
-    setName('Dharm Lakhani (24CS046)');
+    setName('Rudra Vaghela (24CS105)');
   };
 
   return (
@@ -101,7 +101,7 @@ function AuthModal({ isOpen, onClose, onAuthSuccess }) {
                 id="auth-name"
                 type="text"
                 className="form-control"
-                placeholder="e.g. Dharm Lakhani"
+                placeholder="e.g. Rudra Vaghela"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />

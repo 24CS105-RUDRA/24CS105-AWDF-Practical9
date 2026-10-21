@@ -1,7 +1,7 @@
 /**
  * Automated Verification & Response Time Benchmark Suite for Practical 9:
  * In-Memory Caching and Query Optimization (node-cache + Express + MongoDB Atlas)
- * Student: Dharm Lakhani (24CS046) | ITUE301
+ * Student: Rudra Vaghela (24CS105) | ITUE301
  */
 
 const http = require('http');
@@ -61,14 +61,14 @@ function assert(condition, message) {
 async function runTests() {
   console.log('===============================================================');
   console.log('  Practical 9: In-Memory Caching (node-cache) Verification');
-  console.log('  Student: Dharm Lakhani (24CS046) | Course: ITUE301');
+  console.log('  Student: Rudra Vaghela (24CS105) | Course: ITUE301');
   console.log('===============================================================\n');
 
   const timestamp = Date.now();
   const testUser = {
     email: `cache_student_${timestamp}@charusat.edu.in`,
     password: 'SecureCachePassword123!',
-    name: 'Dharm Lakhani'
+    name: 'Rudra Vaghela'
   };
 
   let authToken = null;

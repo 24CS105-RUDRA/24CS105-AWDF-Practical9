@@ -1,9 +1,9 @@
 # Practical 9: In-Memory Caching and Query Optimization
 
 **Course:** Advanced Web Development Frameworks (ITUE301)  
-**Student Name:** Dharm Lakhani  
-**Student ID:** 24CS046  
-**GitHub Repository:** [https://github.com/24CS046Dharm/24cs046-awdf-practical9](https://github.com/24CS046Dharm/24cs046-awdf-practical9)
+**Student Name:** Rudra Vaghela  
+**Student ID:** 24CS105  
+**GitHub Repository:** [https://github.com/24CS105-RUDRA/24CS105-AWDF-Practical9](https://github.com/24CS105-RUDRA/24CS105-AWDF-Practical9)
 
 ---
 
@@ -109,7 +109,7 @@ Response times recorded across consecutive `GET /tasks` requests comparing direc
 ## 📁 Repository Structure
 
 ```
-24cs046-awdf-practical9/
+24CS105-AWDF-Practical9/
 ├── client/                             # React 18 + Vite Frontend
 │   ├── src/
 │   │   ├── api.js                      # API client with cache stats & diagnostic hooks
@@ -189,5 +189,5 @@ npm run dev
 ---
 
 ## 👨‍💻 Author
-**Dharm Lakhani (24CS046)**  
+**Rudra Vaghela (24CS105)**  
 Department of Computer Science & Engineering

@@ -3,7 +3,7 @@ import Spinner from './Spinner';
 import ErrorMessage from './ErrorMessage';
 import RepoList from './RepoList';
 
-const GITHUB_USERNAME = '24CS046Dharm';
+const GITHUB_USERNAME = '24CS105-RUDRA';
 
 function Projects() {
   // Supplementary Problem: Search/filter input state

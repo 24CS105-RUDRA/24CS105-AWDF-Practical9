@@ -7,8 +7,8 @@ function NavBar({ darkMode, setDarkMode, currentUser, onOpenAuthModal, onLogout 
         <div className="nav-brand">
           <div className="brand-badge">DL</div>
           <div className="brand-details">
-            <span className="brand-name">Dharm Lakhani</span>
-            <span className="brand-sub">ID: 24CS046</span>
+            <span className="brand-name">Rudra Vaghela</span>
+            <span className="brand-sub">ID: 24CS105</span>
           </div>
         </div>
         <div className="nav-links">
